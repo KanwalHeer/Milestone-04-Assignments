@@ -37,7 +37,7 @@ export default function SignUp() {
       if (res.ok) {
         const form = e.target;
         form.reset();
-        router.push("/home");
+        router.push("/auth/sign_in");
       } else {
         setError("User registration failed.");
       }
