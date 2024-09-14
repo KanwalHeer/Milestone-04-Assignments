@@ -6,7 +6,7 @@ import User from "@/app/models/user";
 import { NextAuthUser } from "../../types/type";
 
 
-export const authOptions: AuthOptions = {
+ const authOptions: AuthOptions = {
   providers: [
     CredentialsProvider({
       name: "credentials",
